@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aslesha_fw_jhttp_1731628311008-pr-trigger-input-set
+  identifier: Build_aslesha_fw_jhttp_1731628311008prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_aslesha_fw_jhttp_1731628311008
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
