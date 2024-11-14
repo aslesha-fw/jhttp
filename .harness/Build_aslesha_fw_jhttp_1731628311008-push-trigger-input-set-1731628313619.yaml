@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aslesha_fw_jhttp_1731628311008-push-trigger-input-set
+  identifier: Build_aslesha_fw_jhttp_1731628311008pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_aslesha_fw_jhttp_1731628311008
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
